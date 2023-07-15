@@ -4,12 +4,7 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { Cloudinary } from '@cloudinary/url-gen';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBefwG1MnrekgMVoUB6dt88Mtfh6WscEaM",
-  authDomain: "images-upload-d77bc.firebaseapp.com",
-  projectId: "images-upload-d77bc",
-  storageBucket: "images-upload-d77bc.appspot.com",
-  messagingSenderId: "57527607964",
-  appId: "1:57527607964:web:d3ec010747d0e0feeb4359",
+// Adde you config here!
 };
 
 initializeApp(firebaseConfig);
